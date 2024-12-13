@@ -90,7 +90,6 @@ Git tracks changes, allowing users to revert to previous versions when necessary
 
 \section{Git Workflow Diagram}
 The following diagram illustrates a typical Git workflow:
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{git_workflow.jpg}
@@ -98,5 +97,26 @@ The following diagram illustrates a typical Git workflow:
     \label{fig:git_workflow}
 \end{figure}
 
+\section{Version Control of LaTeX Documents}
+Using LaTeX with Git involves managing commits effectively. Here is an example of a calculation:
+%\[
+%\text{Total Commits} = \text{Branches} \times \text{Commits Per Branch}%
+%\]
+This formula helps estimate the number of commits made across all branches in a repository.
+\section{Table in LaTeX}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Command}   & \textbf{Purpose}                                  & \textbf{Example}       \\ \hline
+git init           & Initialize a new Git repository                  & \texttt{git init}      \\ \hline
+git add            & Add files to the staging area                    & \texttt{git add file.txt} \\ \hline
+git commit         & Commit changes with a message                    & \texttt{git commit -m "Initial commit"} \\ \hline
+git status         & Show the status of the working directory and staging area & \texttt{git status}    \\ \hline
+git log            & Show the commit history                          & \texttt{git log}       \\ \hline
+\end{tabular}
+\caption{Git Commands and Their Usage}
+\label{tab:git-commands}
+\end{table}
 
 \end{document}
